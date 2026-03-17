@@ -1,0 +1,19 @@
+{
+  "name": "OASIS Colors",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    { "scope": "keyword.declaration.keywords1.oasis", "settings": { "foreground": "#FF80C0", "fontStyle": "bold" } },
+    { "scope": "keyword.declaration.keywords2.oasis", "settings": { "foreground": "#0080FF" } },
+    { "scope": "keyword.declaration.keywords3.oasis", "settings": { "foreground": "#2894FF" } },
+    { "scope": "keyword.declaration.keywords4.oasis", "settings": { "foreground": "#75BAFF" } },
+    { "scope": "keyword.declaration.keywords5.oasis", "settings": { "foreground": "#A6D2FF" } },
+    { "scope": "keyword.declaration.keywords6.oasis", "settings": { "foreground": "#D5EAFF" } },
+    { "scope": "keyword.declaration.keywords7.oasis", "settings": { "foreground": "#FF0000" } },
+    { "scope": "keyword.declaration.keywords8.oasis", "settings": { "foreground": "#FFFFFF" } },
+    { "scope": "comment.line.number-sign.oasis", "settings": { "foreground": "#00FF00" } },
+    { "scope": "keyword.operator.oasis", "settings": { "foreground": "#FF8000" } },
+    { "scope": "keyword.declaration.directives.oasis", "settings": { "foreground": "#FFFF00" } },
+    { "scope": "constant.other.assignment.rhs.oasis", "settings": { "foreground": "#FFFF00" } }
+  ]
+}
