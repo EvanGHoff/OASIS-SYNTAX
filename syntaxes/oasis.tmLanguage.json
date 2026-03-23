@@ -102,8 +102,18 @@
     "values": {
       "patterns": [
         {
+          "begin": "(=)",
+          "beginCaptures": {
+            "1": { "name": "keyword.operator.oasis" }
+          },
+          "end": "$",
           "name": "constant.other.assignment.rhs.oasis",
-          "match": "=\\s*(.*)$"
+          "patterns": [
+            {
+              "match": ".*",
+              "name": "constant.other.assignment.rhs.oasis"
+            }
+          ]
         }
       ]
     }

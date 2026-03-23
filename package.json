@@ -2,7 +2,7 @@
   "name": "oasis-syntax",
   "displayName": "Syntax Highlighting for OASIS",
   "description": "Syntax highlighting for OASIS (.oasis/.ini) files converted from Notepad++ UDL",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/EvanGHoff/OASIS-SYNTAX"
@@ -35,20 +35,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/oasis-colors.json"
       }
-    ],
-    "tokenColors": [
-      { "scope": ["source.oasis keyword.declaration.keywords1.oasis", "keyword.declaration.keywords1.oasis"], "settings": { "foreground": "#FF80C0", "fontStyle": "bold" } },
-      { "scope": ["source.oasis keyword.declaration.keywords2.oasis", "keyword.declaration.keywords2.oasis"], "settings": { "foreground": "#0080FF" } },
-      { "scope": ["source.oasis keyword.declaration.keywords3.oasis", "keyword.declaration.keywords3.oasis"], "settings": { "foreground": "#2894FF" } },
-      { "scope": ["source.oasis keyword.declaration.keywords4.oasis", "keyword.declaration.keywords4.oasis"], "settings": { "foreground": "#75BAFF" } },
-      { "scope": ["source.oasis keyword.declaration.keywords5.oasis", "keyword.declaration.keywords5.oasis"], "settings": { "foreground": "#A6D2FF" } },
-      { "scope": ["source.oasis keyword.declaration.keywords6.oasis", "keyword.declaration.keywords6.oasis"], "settings": { "foreground": "#D5EAFF" } },
-      { "scope": ["source.oasis keyword.declaration.keywords7.oasis", "keyword.declaration.keywords7.oasis"], "settings": { "foreground": "#FF0000" } },
-      { "scope": ["source.oasis keyword.declaration.keywords8.oasis", "keyword.declaration.keywords8.oasis"], "settings": { "foreground": "#FFFFFF" } },
-      { "scope": ["source.oasis comment.line.number-sign.oasis", "comment.line.number-sign.oasis"], "settings": { "foreground": "#00FF00" } },
-      { "scope": ["source.oasis keyword.operator.oasis", "keyword.operator.oasis"], "settings": { "foreground": "#FF8000" } },
-      { "scope": ["source.oasis keyword.declaration.directives.oasis", "keyword.declaration.directives.oasis"], "settings": { "foreground": "#FFFF00" } },
-      { "scope": ["source.oasis constant.other.assignment.rhs.oasis", "constant.other.assignment.rhs.oasis"], "settings": { "foreground": "#FFFF00" } }
     ]
   },
   "keywords": ["oasis", "syntax", "highlighting", "ini", "moog", "genesys"]

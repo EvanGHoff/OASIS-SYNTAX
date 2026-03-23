@@ -12,8 +12,8 @@
     { "scope": "keyword.declaration.keywords7.oasis", "settings": { "foreground": "#FF0000" } },
     { "scope": "keyword.declaration.keywords8.oasis", "settings": { "foreground": "#FFFFFF" } },
     { "scope": "comment.line.number-sign.oasis", "settings": { "foreground": "#00FF00" } },
-    { "scope": "keyword.operator.oasis", "settings": { "foreground": "#FF8000" } },
     { "scope": "keyword.declaration.directives.oasis", "settings": { "foreground": "#FFFF00" } },
-    { "scope": "constant.other.assignment.rhs.oasis", "settings": { "foreground": "#FFFF00" } }
+    { "scope": "constant.other.assignment.rhs.oasis", "settings": { "foreground": "#FFFF00" } },
+    { "scope": "keyword.operator.oasis", "settings": { "foreground": "#FF8000" } }
   ]
 }
